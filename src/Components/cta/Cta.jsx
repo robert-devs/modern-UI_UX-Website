@@ -1,9 +1,9 @@
 import React from 'react'
 import './cta.css'
-const cta = () => {
+const Cta = () => {
   return (
-    <div>cta</div>
+    <div>cCtata</div>
   )
 }
 
-export default cta
+export default Cta
