@@ -1,6 +1,6 @@
 import React from 'react'
 import './article.css'
-
+import { FaSpinner } from 'react-icons/fa';
 
 const Article = ({ imgUrl, date, text }) => (
   <div className="gpt3__blog-container_article">
@@ -12,7 +12,7 @@ const Article = ({ imgUrl, date, text }) => (
         <p>{date}</p>
         <h3>{text}</h3>
       </div>
-      <p>Read Full Article</p>
+      <p>Read Full Article  <span><FaSpinner/></span></p>
     </div>
   </div>
 );
