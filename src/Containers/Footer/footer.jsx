@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import main from '../../assets/main.png';
+import { FaFacebook,FaInstagram,FaTwitter,FaYoutube } from 'react-icons/fa';
 
 
 
@@ -39,6 +40,12 @@ const Footer = () => (
         <p>085-132567</p>
         <p>info@payme.net</p>
       </div>
+    </div>
+    <div className='gpt__footer-socials'>
+      <h5>Facebook  <span><FaFacebook/></span></h5>
+       <h5>Twitter  <span><FaTwitter/></span></h5>
+        <h5>Instagram  <span><FaInstagram/></span></h5>
+         <h5>You-tube  <span><FaYoutube/></span></h5>
     </div>
 
     <div className="gpt3__footer-copyright">
